@@ -1,0 +1,260 @@
+<<<<<<< HEAD
+* {
+    font-family: Nunito, monospace;
+}
+
+header {
+    background-color:#E4C1F9;
+}
+
+nav {
+    margin: 34px 105px 0px 816px;
+}
+
+div.first-background {
+    background-color:#FCF6BD;
+    height: 770px;
+    display: flex;
+    align-items: center;
+}
+
+div.second-background {
+    background-color:#D0F4DE;
+    height: 770px;
+    display: flex;
+    align-items: center;
+}
+
+div.first-page {
+    display: flex;
+    margin: 30px;
+    flex-direction: column;
+}
+
+div.second {
+    margin: 78px 50px 94px 80px;
+}
+
+img.girl {
+    margin: 95px 138px 39px 18px;
+}
+
+h1.mysite {
+    font-family: Roboto, monospace;
+    font-size: 72px;
+    margin: 100px 59px 34px 0px;
+}
+
+h2.pageheader {
+    font-family: Roboto, monospace;
+    font-size: 48px;
+    margin-bottom: 61px;
+    
+}
+
+div.altshu {
+    margin-top: 20px;
+    margin-left: 741px;
+    display: flex;
+    align-items: center;
+}
+
+div.countertechnologies {
+    display: flex;
+    flex-direction: row;
+    }
+
+div.technologies {
+    margin-left: 50px;
+}
+
+div.counter {
+    display: flex;
+    flex-direction: row;
+    font-size: 60px;
+    color:#0F79FC;
+    font-weight: 400;
+    justify-content: flex-start;
+    margin-right: 100px;
+    margin-bottom: 58px;
+    width: 808px;
+
+}
+
+.detail {
+    font-size: 31px;
+    color: black;
+    vertical-align: middle;
+}
+
+.detailtwo {
+    font-size: 21px;
+    color: black;
+    vertical-align: middle;
+}
+
+span.detailtwo {
+    margin-left: 10px 
+}
+    
+div.feedback {
+    margin-top: 58px;
+    width: 410px;
+}
+
+div.signature {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+span.bold {
+    font-weight: bolder;
+}
+
+p.hello {
+    font-size: 22px;
+}
+
+img.icon {
+    margin: 5px;    
+}
+
+main div.number {
+    color: #0F79FC;
+    font-weight: bold;
+    margin: 78px 0px 0px 0px;
+
+}
+
+img.line {
+    margin: 0px 20px 0;
+}
+
+
+main p.number {
+    color:#0F79FC;
+    font-weight: bold;
+}
+
+div.button {
+    display: flex;
+    background-color: #E4C1F9;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 30px;
+    align-items: center;
+   
+}
+
+div.button1 {
+    display: block;
+    background-color: #0F79FC;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 30px;
+    align-items: center;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    width: min-content;
+    height: 83px;
+    flex-direction: flex-end;
+}
+
+nav span {
+    display: flex;
+    margin: 10px;
+}
+
+nav:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.projects {
+    display: flex;
+    border: 1px solid black;
+    background-color: #FCF6BD;
+    width: 500px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px;
+    padding: 50px
+}
+
+p.story {
+    width: 1000px;
+}
+
+div.background {
+    background-color: #0F79FC;
+}
+.square {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+    
+.form {
+    border-radius: 30px;
+=======
+* {
+    font-family: Nunito, monospace;
+}
+
+header {
+    background-color:#E4C1F9;
+}
+
+main div.first-page {
+    background-color:#FCF6BD;
+}
+
+main div.number {
+    color:#0F79FC;
+    font-weight: bold;
+}
+
+main p.number {
+    color:#0F79FC;
+    font-weight: bold;
+}
+
+div.button {
+    display: block;
+    background-color: #E4C1F9;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+div.button1 {
+    display: block;
+    background-color: #0F79FC;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+nav a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+>>>>>>> 58e3ad00c13c4207277dbf8334c2372c6e144cc5
+}
