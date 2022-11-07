@@ -12,16 +12,45 @@ nav {
 
 div.first-background {
     background-color:#FCF6BD;
+    height: 770px;
+    display: flex;
+    align-items: center;
+}
+
+div.forth-background {
+    background-color:#D0F4DE;
     height: 870px;
     display: flex;
     align-items: center;
 }
 
-div.second-background {
-    background-color:#D0F4DE;
-    height: 770px;
+div.forth {
+    margin: 78px 50px 94px 80px;
+}
+
+div.pageheaderservices {
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 91px;
+}
+
+div.services {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    width: 680px;
+    justify-content: space-between;
+} 
+
+div.serv {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 280px;
+   
 }
 
 div.first-page {
@@ -233,11 +262,6 @@ p.story {
 
 div.background {
     background-color: #0F79FC;
-}
-.square {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
     
 .form {
