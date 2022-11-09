@@ -5,7 +5,8 @@
 
 header {
     background-color:#E4C1F9;
-    height: 10vh;
+    height: 7vh;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -17,13 +18,14 @@ nav {
     font-weight: bold;
     text-decoration: none;
     flex-direction: row;
-    justify-content: space-around;
-       
+    border: 1px solid black;
+    margin-right: 20%;
+         
 }
 
 nav div {
-    margin-right: 20%;
-        
+    margin: 5%; 
+    border: 1px solid black;
 } 
 
 nav:hover {
@@ -47,7 +49,7 @@ img.girl {
 h1.mysite {
     font-family: Roboto, monospace;
     font-size: 72px;
-    margin: 20% 59px 34px 0px;
+   /* margin: 15% 59px 34px 0px; */
 }
 
 div.first-page {
