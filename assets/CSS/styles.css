@@ -1,12 +1,18 @@
 * {
     font-family: Nunito, monospace;
-    
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
 }
 
 header {
-    background-color:#E4C1F9;
+    background-color: #E4C1F9;
     height: 7vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -14,19 +20,19 @@ header {
 
 nav {
     display: flex;
-    font-size: 100%;
+    flex-direction: row;
+    font-size: 130%;
     font-weight: bold;
     text-decoration: none;
-    flex-direction: row;
-    border: 1px solid black;
-    margin-right: 20%;
+    margin-right: 10%;
+    padding: 5%;
+    justify-content: space-around;
          
 }
 
 nav div {
-    margin: 5%; 
-    border: 1px solid black;
-} 
+    margin: 0% 5%;
+}
 
 nav:hover {
     cursor: pointer;
@@ -34,16 +40,18 @@ nav:hover {
 
 .first-background {
     background-color:#FCF6BD;
-    height: 100vh;
-    width: 100vw;
+    height: 100vh-5px;
+    width: 100vw-5px;
     display: flex;
     align-items: center;
     flex-direction: row;
+    
     
 }
 
 img.girl {
     margin: 5vh 5vw;
+    height: 40vw;
 }
 
 h1.mysite {
@@ -58,25 +66,33 @@ div.first-page {
     width: 50%;
     flex-direction: column;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 600px) {
     .first-background {
         flex-direction: column;
         align-items: center;
+        justify-content: center;
        
     }
 
-    .girl {
-        width: 80%
+    div.counter {
+        flex-direction: column;
+        width: 30%;
+    }
+
+    h1.mysite {
+        font-size: 150%;
+        margin: 1vh;
+
+    }
+ /*   img.girl {
+        width: 30vw;
     }
 
     nav {
 
-    }
+    } 
 /*
-    h1.mysite {
-        font-size: 100%;
-        margin: 1vh;
-    }
+    
 
 
     
@@ -93,50 +109,55 @@ div.first-page {
 
 .second-background {
     background-color: #ffffff;
-    height: 770px;
+    height: 100vh;
+
 }
 
 h2.pageheader {
     font-family: Roboto, monospace;
     font-size: 48px;
-    margin: 0px 0px 5vh 5vw;
+    margin: 0px 0px 2vh 5vw;
 
     
 }
 
 div.altshu {
-    margin-top: 5px;
-    margin-left: 741px;
+    margin-top: 1%;
+    margin-left: 50vw;
     display: flex;
     align-items: center;
+}
+
+span.detailuni {
+    margin-left: 1vw; 
 }
 
 div.countertechnologies {
     display: flex;
     flex-direction: row;
+    margin-left: 5vw;
     }
-
-div.technologies {
-    margin-left: 50px;
-}
 
 div.counter {
     display: flex;
     flex-direction: row;
     font-size: 60px;
-    color:#0F79FC;
-    font-weight: 400;
     justify-content: flex-start;
-    margin-right: 100px;
-    margin-bottom: 20px;
-    width: 808px;
+    color:#0F79FC;
+    margin-bottom: 5vh;
+    
 
 }
 
+p {
+    margin: auto;
+}
 .detail {
     font-size: 31px;
     color: black;
     vertical-align: middle;
+    border: 1px solid black;
+    padding-right: 1%;
 }
 
 .detailtwo {
@@ -146,9 +167,9 @@ div.counter {
 }
 
 span.detailtwo {
-    margin-left: 10px 
+    margin-left: 5%; 
 }
-    
+
 div.feedback {
     margin-top: 10px;
     width: 410px;
@@ -166,6 +187,7 @@ span.bold {
 
 p.hello {
     font-size: 22px;
+    margin-top: 5%;
 }
 
 img.icon {
@@ -180,7 +202,7 @@ div.number {
 }
 
 img.line {
-    margin: 5vh 2vw 5vh 5vw;
+    margin: 2vh 2vw 2vh 5vw;
     
 }
 
@@ -196,6 +218,7 @@ div.button {
     padding: 10px 20px;
     border-radius: 30px;
     align-items: center;
+    margin-top: 3%;
 }
 
 div.buttoncontactme {
