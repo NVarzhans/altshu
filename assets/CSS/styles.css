@@ -30,12 +30,13 @@ nav {
          
 }
 
-nav div {
+nav div{
     margin: 0% 5%;
 }
 
-nav:hover {
+nav {
     cursor: pointer;
+
 }
 
 .first-background {
@@ -45,8 +46,6 @@ nav:hover {
     display: flex;
     align-items: center;
     flex-direction: row;
-    
-    
 }
 
 img.girl {
@@ -107,79 +106,94 @@ div.first-page {
     } */
 }
 
+div.counter {
+    display: flex;
+    flex-direction: row;
+    font-size: 60px;
+    justify-content: space-between;
+    color:#0F79FC;
+    margin-bottom: 5vh;
+}
+
 .second-background {
     background-color: #ffffff;
     height: 100vh;
-
 }
 
 h2.pageheader {
     font-family: Roboto, monospace;
     font-size: 48px;
     margin: 0px 0px 2vh 5vw;
-
     
+
+}
+
+img {
+    margin-right: 1vw;
 }
 
 div.altshu {
-    margin-top: 1%;
-    margin-left: 50vw;
     display: flex;
     align-items: center;
-}
-
-span.detailuni {
-    margin-left: 1vw; 
+    margin-bottom: 1vh;
+    width: max-content;
 }
 
 div.countertechnologies {
     display: flex;
     flex-direction: row;
     margin-left: 5vw;
-    }
+   
+}
 
-div.counter {
-    display: flex;
-    flex-direction: row;
-    font-size: 60px;
-    justify-content: flex-start;
-    color:#0F79FC;
-    margin-bottom: 5vh;
+.countdetail {
+    margin: 5vh 3vw 5vh 0;
     
-
 }
 
-p {
-    margin: auto;
-}
 .detail {
     font-size: 31px;
     color: black;
-    vertical-align: middle;
-    border: 1px solid black;
-    padding-right: 1%;
+    width: min-content;         
 }
 
-.detailtwo {
-    font-size: 21px;
-    color: black;
-    vertical-align: middle;
-}
-
-span.detailtwo {
-    margin-left: 5%; 
-}
-
-div.feedback {
-    margin-top: 10px;
-    width: 410px;
+div.technologies {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 3%;
+    align-items: flex-start;
+    
 }
 
 div.signature {
-    margin-top: 10px;
+    margin-top: 3%;
+    margin-left: 20%;
     display: flex;
+    flex-direction: row;
+    align-items: center;   
+}
+
+
+div.feedback {
+    margin-top: 10px;
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
     align-items: center;
 }
+
+div.autor {
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+}
+/*
+span {
+    width: max-content;
+    margin-left: 5px;
+  
+} */
 
 span.bold {
     font-weight: bolder;
@@ -194,19 +208,21 @@ img.icon {
     margin: 5px;    
 }
 
-div.number {
+div.number { 
     color: #0F79FC;
     font-weight: bold;
     display: flex;
+    flex-direction: row;
     align-items: center;
+    margin-top: 1%;
+    margin-left: 5vw;
 }
-
+/*
 img.line {
     margin: 2vh 2vw 2vh 5vw;
-    
-}
+}*/
 
-main p.number {
+p.number {
     color:#0F79FC;
     font-weight: bold;
 }
@@ -220,6 +236,7 @@ div.button {
     align-items: center;
     margin-top: 3%;
 }
+
 
 div.buttoncontactme {
     background-color: #0F79FC;
