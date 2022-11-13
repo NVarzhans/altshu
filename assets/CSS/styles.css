@@ -45,13 +45,16 @@ nav div{
 
 nav {
     cursor: pointer;
-
 }
 
-.first-background {
+a.link:hover {
+    color: #ffffff;
+}
+
+.mysitepage-background {
     background-color:#FCF6BD;
-    height: 100vh-5px;
-    width: 100vw-5px;
+
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -126,9 +129,9 @@ div.counter {
     margin-bottom: 5vh;
 }
 
-.second-background {
+.aboutpage-background {
     background-color: #ffffff;
-    height: 90vh;
+
 }
 
 h2.pageheader {
@@ -140,7 +143,7 @@ h2.pageheader {
 }
 
 img {
-    margin-right: 1vw;
+    margin-right: 1vw; 
 }
 
 div.altshu {
@@ -209,7 +212,9 @@ p.hello {
 }
 
 img.icon {
-    margin: 5px;    
+    width: 2vw;    
+    margin: auto;
+    padding: 2px;
 }
 
 div.number { 
@@ -218,7 +223,7 @@ div.number {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 5vh;
+    margin-top: 5%;
     margin-left: 5vw;
 }
 
@@ -227,12 +232,12 @@ p.number {
     font-weight: bold;
 }
 
-.third-background {
+.projectspage-background {
     background-color: #ffffff;
-    height: 200vh;
+
 }
 
-div.button {
+.button {
     display: flex;
     background-color: #E4C1F9;
     width: fit-content;
@@ -242,7 +247,12 @@ div.button {
     margin-top: 3%;
 }
 
-div.buttoncontactme {
+.button:hover {
+    background-color: #0F79FC;
+   
+}
+
+.buttoncontactme {
     background-color: #0F79FC;
     width: fit-content;
     padding: 10px 20px;
@@ -252,16 +262,27 @@ div.buttoncontactme {
     margin-left: 5vw;
 }
 
-div.button1 {
+.buttoncontactme:hover {
+    background-color: #E4C1F9;
+    
+}
+
+.buttonone {
     display: block;
     background-color: #0F79FC;
     width: fit-content;
     padding: 10px 20px;
     border-radius: 30px;
     align-items: center;
+    margin-left: 5vw;
 }
 
-div.buttontwo {
+.buttonone:hover {
+    background-color: #D0F4DE;
+}
+
+
+.buttontwo {
     background-color: #E4C1F9;
     width: fit-content;
     padding: 10px 20px;
@@ -269,6 +290,10 @@ div.buttontwo {
     align-items: center;
     margin-left: 65vw;
     margin-bottom: 10vh;
+}
+
+.buttontwo:hover {
+    background-color: #0F79FC;
 }
 
 .projects {
@@ -295,7 +320,7 @@ p.pro {
 
 p.protwo {
     font-size: 14px;
-    width: 40;
+    width: 17vw;
 }
 
 #project{
@@ -303,47 +328,11 @@ p.protwo {
     height: 55vh;
     background-color: #FCF6BD;
 }
-
-p.date {
-    font-size: 16px;
-    margin-bottom: 10px;
-    color: #0F79FC;
-}
-
-div.background {
-    background-color: #0F79FC;
-}
-    
+  
 .form {
     border-radius: 30px;
 }
 
-div.story {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    border: 1px solid black;
-    
-}
-
-div.articles {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 600px;
-    height: 200px;
-    margin-left: 40px;
-    border: 1px solid black;
-    justify-content: space-between;
-
-}
-
-div.article {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border: 1px solid black;
-}    
 
 div.pageheaderservices {
     display: flex;
@@ -353,35 +342,159 @@ div.pageheaderservices {
     
 }
 
-section.forth-background {
+.servicespage-background {
     background-color:#D0F4DE;
-    height: 95vh;
+
     display: flex;
     align-items: center;
 }
 
 div.services {
-    margin-left: 100px;
-    margin-top: 50px;
+    margin-left: 10vw;
+    margin-top: 10vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 680px;
+    width: 90vh;
     justify-content: space-between;
 } 
 
 div.serv {
     display: flex;
     flex-direction: column;
-    width: 290px;
-    height: 280px;
-   
+    width: 20vw;
+    height: 40vh;
 }
 
-div.fifth {
-    margin-left: 80px;
-    margin-bottom: 50px;
+.servicon {
+    width: 4vw;
 }
 
+.blogpage-background {
+    background-color: white;
 
+}
 
+.picture {
+    width: 15vw;
+    height: 20vh;
+}
+
+.picture1 {
+    width: 13vw;
+    height: 18vh;
+    margin: auto;
+}
+
+.picture1:hover {
+    width: 18vw;
+    height: 25vh;
+}
+
+div.articles {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin-left: 5vw;
+    margin-top: 5%;
+}
+
+.article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 27vh;
+}    
+
+.story {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 55vw;
+    height: 25vh;
+    margin-left: 3vw;
+}
+
+p.date {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #0F79FC;
+}
+
+.buttonthree {
+    display: block;
+    background-color: white;
+    padding: 1vh 1vw;
+    border-radius: 30px;
+    align-items: center;
+    margin: auto;
+}
+
+.buttonthree:hover {
+    background-color: #0F79FC;
+}
+
+.group-link {
+    display: flex;
+    flex-direction: row;
+}
+
+.grouppicture {
+    width: 20vw;
+}
+
+footer {
+    background-color: #FCF6BD;
+} 
+
+.bottomline {
+    font-size: 12px;
+    padding: 0.5%;
+}
+
+.running {
+    font-size: 60px;
+    margin-left: 5vh;
+}
+
+.picturecontacts {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5vw;
+    align-items: center;
+}
+
+li {
+    text-decoration: none;
+    margin: 3%;
+}
+
+.contactssubscribe {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    width: 50%
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    flex-direction: center;  
+}
+
+form {
+    width: 100%;
+}
+
+.subscribe:hover {
+    cursor: pointer;
+}
+
+.subscribe {
+    margin: auto;
+}

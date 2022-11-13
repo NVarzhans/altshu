@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-        <title>Natalia's blog</title></head>
+        <title>Natalia's blog</title>
 
         <link rel="stylesheet" href="./assets/CSS/styles.css">
       
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
+    </head>
     <header> <!--css-->
             <nav> <!--css, hover-->
-                <div><a href="#Work">Work</a></div> <!--css все-->
-                <div><a href="#About">About</a></div>
-                <div><a href="#Blog">Blog</a></div>
-                <div><a href="#Services">Services</a></div>
-                <div><a href="#Contact">Contact</a></div>
+                <div><a class="link" href="#Work">Work</a></div> <!--css все-->
+                <div><a class="link" href="#About">About</a></div>
+                <div><a class="link" href="#Blog">Blog</a></div>
+                <div><a class="link" href="#Services">Services</a></div>
+                <div><a class="link" href="#Contact">Contact</a></div>
             </nav>
     </header>
     <main>
-        <section class="first-background"> <!--css / media-->
+        <section class="mysitepage-background"> <!--css / media-->
             <div>
                 <img class="girl" src="./assets/pictures/girl frontpage.png" alt="the girl"> 
             </div>
@@ -37,12 +37,12 @@
                 </div>
                 <div>
                     <div class="button">
-                        <a href="mailto:nvarzhans@mail.ru">Write me!</a><img class="icon" src="./assets/pictures/e-mail.png" alt="e-mail" width="17">
+                        <a href="mailto:nvarzhans@mail.ru">Write me!</a><img class="icon" src="./assets/pictures/e-mail.png" alt="e-mail"> <!--css-->
                     </div>
                 </div>
             </div>
         </section>
-        <section class="second-background"> <!--css-->
+        <section class="aboutpage-background"> <!--css-->
             <div class="number"> <!--css-->
                 <img class="line" src="./assets/pictures/cursive line.png" alt="line"> <!--css-->
                 <span id="About">About</span> 
@@ -108,7 +108,7 @@
                 </div>
             </div>
         </section>
-        <section class="third-background"> <!--css-->
+        <section class="projectspage-background"> <!--css-->
             <div class="number"> <!--css-->
                 <img class="line" src="./assets/pictures/cursive line.png" alt="line"><span id="Work">Work</span> <!--css-->
             </div>
@@ -150,7 +150,7 @@
             <div class="buttontwo"><a href="">View all</a> <!--css-->
             </div>
         </sextion> 
-        <section class="forth-background"><!--css-->
+        <section class="servicespage-background"><!--css-->
             <div>
                 <div class="number"> <!--css--several-->
                     <img class="line" src="./assets/pictures/cursive line.png" alt="line"><span id="Services">Services</span> <!--css--several-->
@@ -166,24 +166,24 @@
                         <div class="buttoncontactme"><a href="">Contact me</a> <!--css-->
                         </div>
                     </div>
-                    <div class="services">
-                        <div class="serv">
-                            <img src="./assets/pictures/circles.png" alt="pictures" width="56px"><br/>
+                    <div class="services"> <!--css-->
+                        <div class="serv"> <!--css-->
+                            <img class="servicon" src="./assets/pictures/circles.png" alt="pictures"><br/> <!--css-->
                             <p class="pro">Branding</p>
                             <p class="protwo">Refresh your logo, revamp your website, and even your letterhead— develop a cohesive aesthetic for your brand.</p>
                         </div>
                         <div class="serv">
-                            <img src="./assets/pictures/bulb.png" alt="pictures" width="56px"><br/>
+                            <img class="servicon" src="./assets/pictures/bulb.png" alt="pictures"><br/>
                             <p class="pro">Packaging</p>
                             <p class="protwo">Rethink labels, boxes, signage, and everything that'll help your product make a great first impression.</p>
                         </div>
                         <div class="serv">
-                            <img src="./assets/pictures/connectors.png" alt="pictures" width="56px"><br/>
+                            <img class="servicon" src="./assets/pictures/connectors.png" alt="pictures"><br/>
                             <p class="pro">Memorabilia</p>
                             <p class="protwo">Choose from easy, affordable options for merch like custom tees and sets of pins.</p>
                         </div>
                         <div class="serv">
-                            <img src="./assets/pictures/slash.png" alt="pictures" width="56px"><br/>
+                            <img class="servicon" src="./assets/pictures/slash.png" alt="pictures"><br/>
                             <p class="pro">Visual Aids</p>
                             <p class="protwo">Make your point more convincingly with branded flyers, slides, catalogues, infographics.</p>
                         </div>
@@ -191,106 +191,108 @@
                 </div>
             </div>        
         </section>
-        <section class="blog"><!--fifth page-->
-            <div class="number">
-                <img class="line" src="./assets/pictures/cursive line.png" alt="line"><span id="Blog">Blog</span>
+        <section class="blogpage-background"> <!--css-->
+            <div class="number"> <!--css--several-->
+                <img class="line" src="./assets/pictures/cursive line.png" alt="line"><span id="Blog">Blog</span> <!--css--several-->
             </div>
-            <div>
-                <h2 class="pageheader">Design, Tech and other 
-                    <br/>things I <span class="bold">like & Believe</span>
+            <div >
+                <h2 class="pageheader">Design, Tech and other  <!--css--several-->
+                    <br/>things I <span class="bold">like & Believe</span> 
                 </h2>
             </div>
-            <div class="fifth">
-                <div class="articles">
-                    <div class="story">
-                        <div>
-                            <img src="./assets/pictures/first-project.png" alt="first-project" width="300">
-                        </div>
-                        <div class="article">    
-                            <p class="date"> Oct. 1th 2022</p>
-                            <p class="pro">Flashback to 2002 or fill the difference</p>
-                            <p class="protwo">
-                                My 1st steps in web design and html docs creation i made in 2002. That days I was really proud of myself to be the author of this page, assessed with the best mark by my teacher. Nowadays it looks of course absolutely odd and out of style.<br/> 
-                                20 years ago…Wow...an anniversary! I believe it is time to return to the activity that was exciting for me. Now, with the new knowledge, skills and worldview, I desire to make a lot more out of this than just a dream or a hobby.</p><br>
-                            <div class="button1"><a href="">View post</a>
-                            </div>
-                        </div>   
+            <div class="articles"> <!--css-->
+                <div class="article"> <!--css--several-->
+                    <div class="picture">
+                        <img class="picture1" src="./assets/pictures/first-project.png" alt="first-project"> <!--css--several-->
+                    </div>
+                    <div class="story">   <!--css--several-->  
+                        <p class="date"> Oct. 1th 2022</p> <!--css--several-->
+                        <p class="pro">Flashback to 2002 or fill the difference</p> <!--css-->
+                        <p > <!--css-->
+                            My 1st steps in web design and html docs creation i made in 2002. That days I was really proud of myself to be the author of this page, assessed with the best mark by my teacher. Nowadays it looks of course absolutely odd and out of style.<br/> 
+                            20 years ago…Wow...an anniversary! I believe it is time to return to the activity that was exciting for me. Now, with the new knowledge, skills and worldview, I desire to make a lot more out of this than just a dream or a hobby.</p><br>
+                    </div>
+                    <div class="buttonthree"><a href="">View post</a></div>  
+                </div> 
+                <div class="article"> <!--css-->
+                    <div class="picture"> <!--css-->
+                        <img class="picture1" src="" alt="picture"> <!--css-->
                     </div>
                     <div class="story">
-                        <div>
-                            <img src="" alt="picture" width="300">
-                        </div>
-                        <div>
-                            <p class="date"> Nov. 1th 2022</p>
-                            <p class="pro">How I developed this site</p>
-                            <p class="protwo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
+                        <p class="date"> Dec. 1th 2022</p>
+                        <p class="pro">How I developed this site</p>
+                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="buttonthree"><a href="">View post</a></div> <!--css-->
+                </div>
+                <div class="article">
+                    <div class="picture">
+                        <img class="picture1" src="" alt="picture">
                     </div>
                     <div class="story">
-                        <div>
-                            <img src="" alt="picture" width="300">
-                        </div>
-                        <div>
-                            <p class="date"> Dec. 1th 2022</p>
-                            <p class="pro">Why does JS so exciting</p>
-                            <p class="protwo">Alias, ducimus. Suscipit fuga voluptatem tempore et illo deserunt ex tenetur doloremque dolor, sit provident exer</p>
-                        </div>
+                        <p class="date"> Dec. 15th 2022</p><br/>
+                        <p class="pro">Why does JS so exciting</p>
+                        <p>Alias, ducimus. Suscipit fuga voluptatem tempore et illo deserunt ex tenetur doloremque dolor, sit provident exer</p>
                     </div>    
-                </div>
-                <div class="button1"><a href="">Explore the post</a>
+                    <div class="buttonthree"><a href="">View post</a></div>
                 </div>
             </div>
+            <div class="buttonone"><a href="">Explore the post</a> <!--css-->
+            </div>
+        </section> 
+        <section class="footer">
+   
         </section>
-        <div class="third">    
-            <div>
-                <div>
-                    <img src="./assets/pictures/tab.png" alt="picture" width="723">
-                </div>
-                <div>
-                    <div class="background"> 
-                        <p>About</p>
-                        <p>My journey, career highlights and everything else you need to know.</p>
-                        <p><a href="#About">Get to know me</a><img arrow src="./assets/pictures/white arrow.png" alt="arrow"></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="forth">
-            <div class="number">
-                <img class="line" src="./assets/pictures/cursive line.png" alt="line"><span id="Contact">Contact</span>
-            </div>
-            <div>
-                <p class="">Have something in mind? Let's connect.</p>
-            </div>
-            <div>
-                <span><a href="mailto:nvarzhans@mail.ru">nvarzhans@mail.ru</a></span>
-            </div>
-            <div>
-                    <ul>
-                        <li><a href="#Work">Work</a></li>
-                        <li><a href="#About">About</a></li>
-                        <li><a href="#Blog">Blog</a></li>
-                        <li><a href="#Services">Services</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="https://vk.com/nvarzhans">vk</a></li>
-                        <li><a href="https://github.com/NVarzhans">GitHub</a></li>
-                    </ul>
-                </div>
-                <form method="post" action="">
-                    <div>
-                        <label>Subscribe to my weekly newsletter</label>
-                        <input type="email" placeholder="email" class="form"> 
-                    </div>
-                </form>
-                <div class="button"><a href="">Subscribe</a>
-                </div>
-            <hr>
-            <div class="bottomline">
-                <span>©</span>
-                <span>Powered by</span>
-                <span>Natalia V, 2022</span>
-            </div>
-        </div>
     </main>
+    <footer>
+        <div class="number"> <!--css--several-->
+            <img class="line" src="./assets/pictures/cursive line.png" alt="line"><span id="Contact">Contact</span> <!--css--several-->
+        </div>
+        <div>
+            <p class="running">Have something in mind? Let's connect.</p><!--css-->
+        </div>
+        <div class="picturecontacts"><!--css-->
+            <div>
+                <img src="./assets/pictures/group.png" alt="picture">
+            </div>
+            <div class="contactssubscribe">   
+                <div class="contacts">
+                    <div>
+                        <ul>
+                            <li><a href="#Work">Work</a></li>
+                            <li><a href="#About">About</a></li>
+                            <li><a href="#Blog">Blog</a></li>
+                            <li><a href="#Services">Services</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div>
+                            <ul class="social">
+                                <li><a href="https://vk.com/nvarzhans">vk</a></li>
+                                <li><a href="https://github.com/NVarzhans">GitHub</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="mailto:nvarzhans@mail.ru">nvarzhans@mail.ru</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="subscribe">
+                    <form method="post" action="">
+                        <div>
+                            <label>Subscribe to my weekly newsletter</label>
+                            <input type="email" placeholder="your email" class="form"> 
+                            <button class="subscribe" type="submit">Subscribe</button>
+                        </div>
+                    </form>                     
+                </div>
+            </div>   
+        </div>  
+        <hr>
+        <div class="bottomline">
+            <span class="bottomline">©</span>
+            <span class="bottomline">Powered by</span>
+            <span class="bottomline">Natalia V, 2022</span>
+        </div>
+    </footer>
 </html>
