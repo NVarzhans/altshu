@@ -179,6 +179,14 @@ div.technologies {
     margin-left: 10vw;    
 }
 
+.star {
+    width: 4%;
+}
+
+.hat {
+    width: 15%; 
+}
+
 div.signature {
     margin-top: 3%;
     margin-left: 20%;
@@ -323,7 +331,7 @@ p.protwo {
     width: 17vw;
 }
 
-#project{
+.project{
     width: 30vw;
     height: 55vh;
     background-color: #FCF6BD;
@@ -497,4 +505,8 @@ form {
 
 .subscribe {
     margin: auto;
+}
+
+li {
+    list-style-type: none;
 }
