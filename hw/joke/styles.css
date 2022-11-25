@@ -1,0 +1,23 @@
+.jokeField {
+    width: 200px;
+    height: 150px;
+}
+
+.getJoke {
+    border-radius: 3%;
+    border: 1px solid black;
+    color: blue;
+    background: lightsalmon;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header {
+    color: blue;
+    background: lightsalmon;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: bold;
+}    
+
