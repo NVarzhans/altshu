@@ -288,34 +288,40 @@
                         <form method="post" action="">
                             <div>
                                 <labelone>Subscribe to my weekly newsletter</label>
-                                <input type="email" placeholder="your email" class="form">
+                                <input type="email" placeholder=" your email" class="form">
                                 <input class="subscribe" type="button" value="Subscribe" onclick="showModalWin()">
                             </div>
                             <div style="text-align: center" id="popupWin" class="modalwin">
                                 <h2> Please leave your feedback </h2>
-                                <form>
+                                <form class="modal">
                                     <div class="field">
                                       <label>e-mail</label>
-                                      <input type="email" placeholder="email">
+                                      <input class="email" type="email" placeholder=" email">
                                     </div>
                                     <div class="field">
                                         <label>full name</label>
-                                        <input type="text" placeholder="name">
+                                        <input class="name" type="text" placeholder=" name">
                                     </div>
                                     <div class="field">
                                       <label>feedback</label>
-                                      <textarea placeholder="your feedback" width="70" height="100" border-radius: 10%;></textarea>
+                                      <textarea class="yourfeedback" placeholder=" your feedback" width="100" height="200" border-radius: 10%;></textarea>
                                     </div>
                                     <div class="imgAndButton">
                                         <div>
-                                            <img src="https://cdn-icons-png.flaticon.com/128/1208/1208652.png" alt="feedback" width="50">
+                                            <img class="thumb" src="https://cdn-icons-png.flaticon.com/128/1208/1208652.png" alt="feedback">
                                         </div>    
                                         <div>
                                         <button class="submit" type="submit">Submit</button>
                                         </div>
                                     </div>
                                 </form>
-                            </div> -->
+                            </div>
+                            <div style="text-align: center" id="submitAlert" class="submitAlert">
+                                <h2> Thanks for your feedback, you are subscribed</h2>
+                            </div>
+                            <div style="text-align: center" id="submitProblem" class="submitProblem">
+                                <h2> Thanks for your feedback, you are subscribed</h2>
+                            </div>
                         </form>                     
                     </div>
                 </div>   

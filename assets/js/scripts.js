@@ -7,6 +7,19 @@ function showModalWin() {
     let modalWin = document.getElementById('popupWin'); // находим наше "окно" в index.html
     modalWin.style.display = 'block'; // "включаем" его
 
+
+    let email = document.querySelector(".form"); //сохранение почты, чобы не пришлось дваажды вводить.
+    let emailEntered = document.querySelector(".email");
+    emailEntered.setAttribute('value', email.value);
+   
+    // let send = document.querySelector(".submit");
+    // send.addEventListener('submit', alert);
+ 
+    // function alert(event) {
+    // event.preventDefault();
+    // alert("Thanks for your feedback, you are subscribed");
+    // } 
+
     darkLayer.onclick = function () {  // при клике на слой затемнения все исчезнет
         darkLayer.parentNode.removeChild(darkLayer); // удаляем затемнение
         modalWin.style.display = 'none'; // делаем окно невидимым
@@ -22,10 +35,3 @@ function showModalWin() {
 // отзыв - если пусто - confirm("are you sure that you do not want to leave a feedback?")
 // после нажатия на кнопку Submit - alert("you are subsctibed")
 
-//замена картинки письма
-
-// let closedEmail = document.querySelector('.iconemail'); // находим картинку в index.html
-
-// document.querySelector('.buttonemail').addEventListener('mouseover', () => {
-//     closedEmail.classList.add('.openEmail');
-// });

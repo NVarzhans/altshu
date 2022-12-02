@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- php
+<?
+/*task1*/
+echo('HTML');
+echo('<br/>');
+echo('CSS');
+echo('<br/>');
+echo('JavaScript');
+echo('<br/>');
+echo('PHP');
+
+/*task2* На языке PHP создайте массив из 5 студентов вашей группы и перебором запишите их в нумерованный список. */
+
+$arrStudents = [1 => 'Natalia', 2 => 'Julia', 3 => 'Oleg', 4 => 'Roman', 5 => 'Stepan'];
+echo('<ol>');
+foreach($arrStudents as $index => $value) {
+echo('<li>');
+echo($value);
+echo('</li>');
+}
+echo('</ol>');
+
+
+/task 3. Создайте 6 переменных, запишите в них 6 различных арифметических выражений и выведите их */
+$firstVar = ('a + b');
+$secondVar = ('a - b');
+$thirdVar = ('a * b');
+$forthVar = ('a / b');
+$fifthVar = ('a ** b');
+$sixthVar = ('a % b');
+echo($firstVar);
+echo($secondVar);
+echo($thirdVar);
+echo($forthVar);
+echo($fifthVar);
+echo($sixthVar);
+
+/* task 4. Присвойте переменным $first и $second значения 1 и 2 соответственно. Поменяйте значения переменных так, чтобы первая переменная приняла значение второй, а вторая — первой. Напрямую менять значение по типу $second = "first” в данном задании запрещено. */
+
+$firstVar = 1;
+$secondVar = 2;
+
+echo($firstVar+=+$secondVar-$secondVar=$firstVar);
+echo($secondVar);
+
+/* task 5. Напишите условие, которое будет проверять, чётное ли значение в него передали, или нечетное */
+$oddVar = 6;
+
+if ($oddVar%2 == 0){
+	echo('четное число'); 
+	} else {
+		echo('нечетное число');
+	}
+
+/* task 6 Создайте массив с тремя уровнями вложенности. После создания массива добавьте новые элементы на самом глубоком уровне вложенности отдельным выражением. */
+
+$family = [1 => 'Daddy', 2 => 'Mammy', 3 => 'Children']; 
+$family[3] = [1 => 'Son', 2 => 'Daugther'];
+$family[3][1] = [1 => 'Grand Son', 2 => 'Grand Daugther'];
+var_dump($family);
+
+/* task 7. С помощью цикла while создайте массив, содержащий чётные числа от 245 до 287. Затем выведите элементы массива с помощью цикла foreach*/
+
+$odd = 245;
+$oddArr = [];
+
+while($odd < 287) {
+    $odd ++;
+    if ($odd % 2 != 0) {
+    continue;
+   } else {
+   $oddArr[] = $odd;
+   }
+}
+ echo('<ul>');
+ foreach ($oddArr as $i => $value) {
+ 	echo('<li>');
+ 	echo($value);
+  	echo('</li>');
+ }
+ echo('</ul>');
+
+?>
+
+
+
+-->
+</body>
+</html>
